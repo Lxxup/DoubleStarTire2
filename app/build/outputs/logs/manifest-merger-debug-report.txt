@@ -1,0 +1,917 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:2:1-544:12
+INJECTED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:2:1-544:12
+INJECTED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:2:1-544:12
+INJECTED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:2:1-544:12
+INJECTED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:2:1-544:12
+INJECTED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:2:1-544:12
+INJECTED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:2:1-544:12
+	package
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:3:5-26
+		INJECTED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:5:5-32
+		INJECTED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml
+uses-sdk
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:7:5-9:41
+INJECTED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:7:5-9:41
+INJECTED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:7:5-9:41
+INJECTED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:7:5-9:41
+INJECTED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:8:9-35
+		INJECTED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml
+uses-feature#android.hardware.usb.host
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:11:5-13:35
+	android:required
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:13:9-32
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:12:9-49
+uses-permission#android.permission.BLUETOOTH
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:14:5-68
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:14:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:15:5-74
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:15:22-71
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:17:5-84
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:17:22-81
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:19:5-79
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:19:22-76
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:20:5-79
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:20:22-76
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:21:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:22:5-80
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:22:22-78
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:23:5-76
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:23:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:24:5-76
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:24:22-73
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:25:5-75
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:25:22-72
+uses-permission#android.permission.BROADCAST_STICKY
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:26:5-75
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:26:22-72
+uses-permission#android.permission.BAIDU_LOCATION_SERVICE
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:27:5-81
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:27:22-78
+permission#android.permission.BAIDU_LOCATION_SERVICE
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:29:5-76
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:29:17-73
+uses-permission#android.permission.CALL_PHONE
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:32:5-69
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:32:22-66
+supports-screens
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:34:5-39:39
+	android:largeScreens
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:36:9-36
+	android:smallScreens
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:39:9-36
+	android:normalScreens
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:37:9-38
+	android:resizeable
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:38:9-34
+	android:anyDensity
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:35:9-34
+application
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:41:5-478:19
+	android:label
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:45:9-41
+	android:icon
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:44:9-42
+	android:allowBackup
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:43:9-35
+	android:theme
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:46:9-56
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:42:9-54
+activity#com.ds.tire.ShopActivity
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:47:9-51:20
+	android:screenOrientation
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:50:13-49
+	android:label
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:49:13-45
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:48:13-41
+activity#com.ds.tire.SplashActivity
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:52:9-66:20
+	android:screenOrientation
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:55:13-49
+	android:label
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:54:13-45
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:53:13-43
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:56:13-59:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:57:17-69
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:57:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:58:17-77
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:58:27-74
+intent-filter#android.hardware.usb.action.USB_DEVICE_ATTACHED
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:60:13-62:29
+action#android.hardware.usb.action.USB_DEVICE_ATTACHED
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:61:17-90
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:61:25-87
+meta-data#android.hardware.usb.action.USB_DEVICE_ATTACHED
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:63:13-65:57
+	android:resource
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:65:17-54
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:64:17-79
+activity#com.ds.tire.MainActivity
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:67:9-71:20
+	android:screenOrientation
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:70:13-49
+	android:label
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:69:13-45
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:68:13-41
+activity#com.ds.tire.MonitorWeatherActivity
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:72:9-75:20
+	android:label
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:74:13-45
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:73:13-62
+activity#com.ds.tire.SetDataActivity
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:76:9-80:20
+	android:screenOrientation
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:79:13-49
+	android:label
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:78:13-45
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:77:13-44
+activity#com.ds.tire.TabAActivity
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:81:9-85:20
+	android:screenOrientation
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:84:13-49
+	android:label
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:83:13-45
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:82:13-41
+activity#com.ds.tire.TabBActivity
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:86:9-90:20
+	android:screenOrientation
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:89:13-49
+	android:label
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:88:13-45
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:87:13-41
+activity#com.ds.tire.TabCActivity
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:91:9-95:20
+	android:screenOrientation
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:94:13-49
+	android:label
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:93:13-45
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:92:13-41
+activity#com.ds.tire.TabDActivity
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:96:9-100:20
+	android:screenOrientation
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:99:13-49
+	android:label
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:98:13-45
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:97:13-41
+activity#com.and.netease.utils.MoveBg
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:101:9-105:20
+	android:screenOrientation
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:104:13-49
+	android:label
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:103:13-45
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:102:13-56
+activity#com.ds.tire.WeatherInfoActivity
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:106:9-110:20
+	android:screenOrientation
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:109:13-49
+	android:label
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:108:13-46
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:107:13-59
+activity#com.ds.tire.WeatherActivity
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:111:9-115:20
+	android:screenOrientation
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:114:13-49
+	android:label
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:113:13-45
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:112:13-55
+activity#com.ds.tire.CompanyIntroduceActivity
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:116:10-120:20
+	android:screenOrientation
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:119:13-49
+	android:label
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:118:13-45
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:117:13-53
+activity#com.ds.tire.WeizhangActivity
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:121:8-125:20
+	android:screenOrientation
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:124:13-49
+	android:label
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:123:13-45
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:122:13-45
+activity#com.ds.tire.TireHomeActivity
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:126:9-130:20
+	android:screenOrientation
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:129:13-49
+	android:label
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:128:13-45
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:127:13-45
+activity#com.ds.tire.HomeActivity
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:131:9-135:20
+	android:screenOrientation
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:134:13-49
+	android:label
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:133:13-45
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:132:13-41
+activity#com.ds.tire.SafeActivity
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:136:9-140:20
+	android:screenOrientation
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:139:13-49
+	android:label
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:138:13-45
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:137:13-41
+activity#com.ds.tire.MonitorActivity
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:141:9-145:20
+	android:screenOrientation
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:144:13-49
+	android:label
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:143:13-45
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:142:13-44
+activity#com.ds.tire.WebsiteSelectActivity
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:146:9-150:20
+	android:screenOrientation
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:149:13-49
+	android:label
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:148:13-45
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:147:13-50
+activity#com.ds.tire.WebsiteActivity
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:151:9-155:20
+	android:screenOrientation
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:154:13-49
+	android:label
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:153:13-45
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:152:13-44
+activity#com.ds.tire.WebsiteListActivity
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:157:9-161:20
+	android:screenOrientation
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:160:13-49
+	android:label
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:159:13-45
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:158:13-48
+activity#com.ds.tire.WebsiteDetailActivity
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:162:9-166:20
+	android:screenOrientation
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:165:13-49
+	android:label
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:164:13-45
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:163:13-50
+activity#com.ds.tire.RegisterNewActivity
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:167:9-171:20
+	android:screenOrientation
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:170:13-49
+	android:label
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:169:13-45
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:168:13-48
+activity#com.ds.tire.SetActivity
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:172:9-176:20
+	android:screenOrientation
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:175:13-49
+	android:label
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:174:13-45
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:173:13-40
+activity#com.ds.tire.FuwuxieyiActivity
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:177:9-181:20
+	android:screenOrientation
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:180:13-49
+	android:label
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:179:13-45
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:178:13-46
+activity#com.ds.tire.FuwuxieyiAddActivity
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:182:10-186:20
+	android:screenOrientation
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:185:13-49
+	android:label
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:184:13-45
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:183:13-49
+activity#com.ds.tire.Fuwuxieyi_listActivity
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:187:9-191:20
+	android:screenOrientation
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:190:13-49
+	android:label
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:189:13-45
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:188:13-51
+activity#com.ds.tire.Fuwuxieyi_read
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:192:9-196:20
+	android:screenOrientation
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:195:13-49
+	android:label
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:194:13-45
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:193:13-43
+activity#com.ds.tire.FuwuxieyiStartActivity
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:197:9-201:20
+	android:screenOrientation
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:200:13-49
+	android:label
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:199:13-45
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:198:13-51
+activity#com.ds.tire.LoginActivity
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:202:9-206:20
+	android:screenOrientation
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:205:13-49
+	android:label
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:204:13-45
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:203:13-42
+activity#com.ds.tire.RegisterActivity
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:207:9-211:20
+	android:screenOrientation
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:210:13-49
+	android:label
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:209:13-45
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:208:13-45
+activity#com.ds.tire.ProductActivity
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:212:9-216:20
+	android:screenOrientation
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:215:13-49
+	android:label
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:214:13-45
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:213:13-44
+activity#com.ds.tire.SaleActivity
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:217:9-221:20
+	android:screenOrientation
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:220:13-49
+	android:label
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:219:13-45
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:218:13-41
+activity#com.ds.tire.CompanyActivity
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:222:9-226:20
+	android:screenOrientation
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:225:13-49
+	android:label
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:224:13-45
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:223:13-44
+activity#com.ds.tire.MyTireActivity
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:227:9-231:20
+	android:screenOrientation
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:230:13-49
+	android:label
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:229:13-45
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:228:13-43
+activity#com.ds.tire.MessageActivity
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:232:9-236:20
+	android:screenOrientation
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:235:13-49
+	android:label
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:234:13-45
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:233:13-44
+activity#com.ds.tire.SafeDetailActivity
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:237:9-241:20
+	android:screenOrientation
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:240:13-49
+	android:label
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:239:13-45
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:238:13-47
+activity#com.ds.tire.AskActivity
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:242:9-246:20
+	android:screenOrientation
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:245:13-49
+	android:label
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:244:13-45
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:243:13-40
+activity#com.ds.tire.TireActivity
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:247:9-251:20
+	android:screenOrientation
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:250:13-49
+	android:label
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:249:13-45
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:248:13-41
+activity#com.ds.tire.TireDetailActivity
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:252:9-256:20
+	android:screenOrientation
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:255:13-49
+	android:label
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:254:13-45
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:253:13-47
+activity#com.ds.tire.MessageDetailActivity
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:257:9-261:20
+	android:screenOrientation
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:260:13-49
+	android:label
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:259:13-45
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:258:13-50
+activity#com.ds.tire.MapActivity
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:262:9-266:20
+	android:screenOrientation
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:265:13-49
+	android:label
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:264:13-45
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:263:13-40
+activity#com.ds.tire.OrderDetailActivity
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:267:9-271:20
+	android:screenOrientation
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:270:13-49
+	android:label
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:269:13-45
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:268:13-48
+activity#com.ds.tire.OilcountActivity
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:272:9-276:20
+	android:screenOrientation
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:275:13-49
+	android:configChanges
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:274:13-63
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:273:13-45
+activity#com.ds.tire.OrderTest
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:277:9-281:20
+	android:screenOrientation
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:280:13-49
+	android:label
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:279:13-45
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:278:13-38
+activity#com.ds.tire.OrderHistoryActivity
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:282:9-286:20
+	android:screenOrientation
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:285:13-49
+	android:label
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:284:13-45
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:283:13-49
+activity#com.ds.tire.OrderFinishActivity
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:287:9-291:20
+	android:screenOrientation
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:290:13-49
+	android:label
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:289:13-45
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:288:13-48
+activity#com.ds.tire.MonitorMoreActivity
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:292:9-296:20
+	android:screenOrientation
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:295:13-49
+	android:label
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:294:13-45
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:293:13-48
+activity#com.ds.tire.MonitorMatchActivity
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:297:17-301:20
+	android:screenOrientation
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:300:13-49
+	android:label
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:299:13-45
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:298:13-49
+activity#com.ds.tire.AddOilInfoActivity
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:302:9-306:20
+	android:screenOrientation
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:305:13-49
+	android:label
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:304:13-45
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:303:13-47
+activity#com.ds.tire.AddOilActivity
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:307:9-311:20
+	android:screenOrientation
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:310:13-49
+	android:label
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:309:13-45
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:308:13-43
+activity#com.ds.tire.ServiceOnlineActivity
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:312:9-316:20
+	android:screenOrientation
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:315:13-49
+	android:label
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:314:13-45
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:313:13-50
+activity#com.ds.tire.ZhiliangActivity
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:317:9-321:20
+	android:screenOrientation
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:320:13-49
+	android:label
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:319:13-45
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:318:13-45
+activity#com.ds.tire.ZhiliangFanActivity
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:322:9-326:20
+	android:screenOrientation
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:325:13-49
+	android:label
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:324:13-45
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:323:13-48
+activity#com.ds.tire.RegisterListActivity
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:327:9-331:20
+	android:screenOrientation
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:330:13-49
+	android:label
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:329:13-45
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:328:13-49
+activity#com.ds.tire.OnlinephoneActivity
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:332:9-336:20
+	android:screenOrientation
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:335:13-49
+	android:label
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:334:13-45
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:333:13-48
+activity#com.ds.tire.SettingsActivity
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:337:9-341:20
+	android:screenOrientation
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:340:13-49
+	android:label
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:339:13-45
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:338:13-45
+activity#com.ds.tire.bluetooth.DeviceList
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:342:9-347:20
+	android:screenOrientation
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:345:13-49
+	android:label
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:344:13-45
+	android:theme
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:346:13-56
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:343:13-49
+activity#com.ds.tire.PianfangDetailActivity
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:348:9-350:20
+	android:label
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:349:13-45
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:348:19-68
+activity#com.ds.tire.ProductSeriesActivity
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:351:9-354:20
+	android:label
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:353:13-45
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:352:13-61
+activity#com.ds.tire.ProductDetailActivity
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:355:9-358:20
+	android:label
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:357:13-45
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:356:13-61
+activity#com.ds.tire.PDetailActivity
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:359:9-362:20
+	android:label
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:361:13-45
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:360:13-55
+activity#com.ds.tire.PianfangActivity
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:363:9-366:20
+	android:label
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:365:13-45
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:364:13-56
+activity#com.ds.tire.Name1Activity
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:367:9-370:20
+	android:label
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:369:13-45
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:368:13-53
+activity#com.ds.tire.Name2Activity
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:371:9-374:20
+	android:label
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:373:13-45
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:372:13-53
+activity#com.ds.tire.Name3Activity
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:375:9-378:20
+	android:label
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:377:13-45
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:376:13-53
+activity#com.ds.tire.Title1Activity
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:379:9-382:20
+	android:label
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:381:13-45
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:380:13-54
+activity#com.ds.tire.Title2Activity
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:383:9-386:20
+	android:label
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:385:13-45
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:384:13-54
+activity#com.ds.tire.Title3Activity
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:387:9-390:20
+	android:label
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:389:13-45
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:388:13-54
+activity#com.ds.tire.Title4Activity
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:391:9-394:20
+	android:label
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:393:13-45
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:392:13-54
+activity#com.ds.tire.Title5Activity
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:395:9-398:20
+	android:label
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:397:13-45
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:396:13-54
+activity#com.ds.tire.Title6Activity
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:399:9-402:20
+	android:label
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:401:13-45
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:400:13-54
+activity#com.ds.tire.Title7Activity
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:403:9-406:20
+	android:label
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:405:13-45
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:404:13-54
+activity#com.ds.tire.Title8Activity
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:407:9-410:20
+	android:label
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:409:13-45
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:408:13-54
+activity#com.ds.tire.Title9Activity
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:411:9-414:20
+	android:label
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:413:13-45
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:412:13-54
+activity#com.ds.tire.Title10Activity
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:415:9-418:20
+	android:label
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:417:13-45
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:416:13-55
+activity#com.ds.tire.Title11Activity
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:419:9-422:20
+	android:label
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:421:13-45
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:420:13-55
+activity#com.ds.tire.Title12Activity
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:423:9-426:20
+	android:label
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:425:13-45
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:424:13-55
+activity#com.ds.tire.test_class
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:428:9-429:57
+	android:label
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:429:13-45
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:428:19-45
+activity#com.ds.tire.home_good_detail
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:433:9-434:57
+	android:label
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:434:13-45
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:433:19-51
+activity#com.ds.tire.Myorder
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:436:9-437:57
+	android:label
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:437:13-45
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:436:19-42
+service#com.ds.tire.bluetooth.GetDataService
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:442:9-446:19
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:442:18-69
+intent-filter#com.blutooth.SERVICE_START
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:443:13-445:29
+action#com.blutooth.SERVICE_START
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:444:17-69
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:444:25-66
+service#com.baidu.location.f
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:447:9-451:19
+	android:process
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:450:13-38
+	android:enabled
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:449:13-35
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:448:13-48
+service#com.ds.tire.mqtt.MqttService
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:452:9-454:38
+	android:enabled
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:454:13-35
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:453:13-56
+meta-data#com.baidu.lbsapi.API_KEY
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:456:9-458:64
+	android:value
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:458:13-61
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:457:13-52
+meta-data#WEATHER_APPKEY
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:459:9-461:48
+	android:value
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:461:13-45
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:460:13-42
+meta-data#OSVERSION
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:462:9-464:39
+	android:value
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:464:13-36
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:463:13-37
+meta-data#SOFTWARESRC
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:465:9-467:44
+	android:value
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:467:13-41
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:466:13-39
+meta-data#VERSIONTYPE
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:468:9-470:39
+	android:value
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:470:13-36
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:469:13-39
+meta-data#UMENG_APPKEY
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:471:9-474:21
+	android:value
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:473:13-53
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:472:13-40
+meta-data#UMENG_CHANNEL
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:475:9-477:34
+	android:value
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:477:13-31
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:476:13-41
+uses-permission#android.permission.RECEIVE_USER_PRESENT
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:480:5-78
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:480:22-76
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:481:5-69
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:481:22-67
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:482:6-66
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:482:23-64
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:483:5-70
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:483:22-68
+uses-permission#android.permission.USE_CREDENTIALS
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:484:5-73
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:484:22-71
+uses-permission#android.permission.MANAGE_ACCOUNTS
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:485:5-73
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:485:22-71
+uses-permission#android.permission.AUTHENTICATE_ACCOUNTS
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:486:5-79
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:486:22-77
+uses-permission#android.permission.GET_TASKS
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:487:6-69
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:487:23-66
+uses-permission#android.permission.SET_DEBUG_APP
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:488:5-72
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:488:22-69
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:489:5-78
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:489:22-75
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:497:5-498:23
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:497:22-78
+uses-permission#android.permission.ACCESS_MOCK_LOCATION
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:501:5-502:23
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:501:22-76
+uses-permission#com.android.launcher.permission.READ_SETTINGS
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:506:5-84
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:506:22-82
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:507:5-508:23
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:507:22-65
+uses-permission#android.permission.ACCESS_GPS
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:511:5-68
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:511:22-66
+uses-permission#android.permission.READ_CONTACTS
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:513:5-71
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:513:22-69
+uses-permission#android.permission.READ_SMS
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:515:5-66
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:515:22-64
+uses-permission#android.permission.SEND_SMS
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:516:5-66
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:516:22-64
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:519:5-520:23
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:519:22-62
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:521:5-522:23
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:521:22-68
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:523:5-80
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:523:22-78
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:525:5-72
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:525:22-70
+uses-permission#android.permission.PROCESS_OUTGOING_CALLS
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:527:5-528:23
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:527:22-78
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:530:5-79
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:530:22-77
+uses-feature#android.hardware.camera
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:537:5-59
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:537:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:538:5-69
+	android:name
+		ADDED from C:\Users\developer\Desktop\222222\666\DoubleStarTire2\app\src\main\AndroidManifest.xml:538:19-67

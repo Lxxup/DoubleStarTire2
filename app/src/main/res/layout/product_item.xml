@@ -1,0 +1,22 @@
+<LinearLayout 
+android:layout_width="fill_parent" 
+android:layout_height="fill_parent" 
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="horizontal"
+android:id="@+id/product_layout">
+		<ImageView android:layout_margin="5dp"
+        android:id="@+id/productimage" 
+        android:layout_width="80dp" 
+        android:layout_height="80dp"
+        android:layout_gravity="center">
+        </ImageView>
+        <TextView 
+        android:text="轮胎"
+        android:textColor="@color/grey"
+        android:id="@+id/producttitle" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="22sp">
+        </TextView>
+    </LinearLayout>

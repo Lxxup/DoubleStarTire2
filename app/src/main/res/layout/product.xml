@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+android:layout_width="fill_parent" 
+android:layout_height="fill_parent" 
+android:orientation="vertical"
+android:background="@color/flight_list_bg"
+xmlns:android="http://schemas.android.com/apk/res/android">
+ <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/maintab_toolbar_bg"
+        android:gravity="center_vertical" >
+
+        <LinearLayout
+            android:id="@+id/product_back"
+            android:layout_width="60dp"
+            android:layout_height="fill_parent"
+            android:background="@drawable/common_header_bg_sel"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/arrow_button_normal" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="50dp"
+            android:layout_toRightOf="@+id/product_back"
+            android:background="@drawable/home_bottom_split" />
+            <TextView
+            	android:layout_centerInParent="true"
+                android:id="@+id/common_head_title"
+                style="@style/common_text_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="产品介绍" />
+    </RelativeLayout>
+ <ListView android:layout_width="fill_parent"
+ android:layout_height="wrap_content"
+ android:id="@+id/productGrid"
+ android:cacheColorHint="#00000000"
+android:clipToPadding="false"
+android:choiceMode="singleChoice"></ListView>
+   <!--  <LinearLayout 
+    android:background="@drawable/productintroduce"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_a"
+            android:textColor="#eb8276"
+            android:gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/product_tv"
+            android:text="半钢轿车子午轮胎"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/tv_b"
+            android:textColor="#eb8276"
+            android:gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/product_tv"
+            android:text="彩色轮胎"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/tv_c"
+            android:textColor="#eb8276"
+            android:gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/product_tv"
+            android:text="高速路面系列"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/tv_d"
+            android:textColor="#eb8276"
+            android:gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/product_tv"
+            android:text="混合路面系列"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/tv_e"
+            android:textColor="#eb8276"
+            android:gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/product_tv"
+            android:text="矿山路面系列"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/tv_f"
+            android:textColor="#eb8276"
+            android:gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/product_tv"
+            android:text="雪地路面系列"
+            android:textSize="30dp" />
+
+    </LinearLayout> -->
+</LinearLayout>

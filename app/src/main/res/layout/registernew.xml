@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/login_bg11"
+    android:orientation="vertical" >
+
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="#f4f5f6">
+
+        <TextView
+            android:id="@+id/login_back_matchphone"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/return_icon" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="验证手机号" />
+
+    </RelativeLayout>
+
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:padding="30dp"
+                android:layout_marginTop="60dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.28"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="vertical" >
+
+
+                <LinearLayout
+                    android:layout_marginTop="40dp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/white"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp" >
+
+                        <RelativeLayout
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" >
+
+                            <TextView
+                                android:id="@+id/bt_s"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignBaseline="@+id/bt_getvm"
+                                android:layout_alignBottom="@+id/bt_getvm"
+                                android:layout_alignParentLeft="true"
+                                android:background="@drawable/phone1"
+                                android:gravity="center_vertical"
+                                android:textColor="@color/black_green" />
+
+                            <TextView
+                                android:id="@+id/bt_shu"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="50dp"
+                                android:layout_marginTop="10dp"
+                                
+                                android:textColor="@color/black_green"
+                                android:visibility="gone" />
+
+                            <TextView
+                                android:id="@+id/bt_shu11"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginRight="95dp"
+                                android:layout_marginTop="11dp"
+                                
+                                android:textColor="@color/black_green"
+                                android:visibility="gone" />
+
+                            <EditText
+                                android:id="@+id/et_register_phone"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentBottom="true"
+                                android:layout_toRightOf="@+id/bt_s"
+                                android:background="@null"
+                                android:ems="10"
+                                android:hint="请输入手机号"
+                                android:inputType="phone"
+                                android:maxLength="11"
+                                android:padding="10dp"
+                                android:paddingLeft="15dp"
+                                android:singleLine="true"
+                                android:textColorHint="#CCCCCC"
+                                android:textSize="16sp" />
+
+                            <Button
+                                android:id="@+id/bt_getvm"
+                                android:layout_width="wrap_content"
+                                android:layout_height="33dp"
+                                android:layout_alignParentBottom="true"
+                                android:layout_alignParentRight="true"
+                                android:layout_alignTop="@+id/et_register_phone"
+                                android:singleLine="true"
+                                android:text="获取验证码"
+                                android:textColor="@color/white" />
+
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1.0dp"
+                    android:layout_alignParentTop="true"
+                    android:background="#636060" />
+
+                <LinearLayout
+                    android:layout_marginTop="30dp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/white"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp" >
+
+                        <RelativeLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content" >
+
+                            <TextView
+                                android:id="@+id/bt_s1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp"
+                                android:background="@drawable/key"
+                                android:textColor="@color/black_green" />
+
+                            <TextView
+                                android:id="@+id/bt_shu1111"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="50dp"
+                                android:layout_marginTop="10dp"
+                                
+                                android:textColor="@color/black_green"
+                                android:visibility="gone" />
+
+                            <EditText
+                                android:id="@+id/et_vvnumb"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_toRightOf="@+id/bt_s1"
+                                android:background="@null"
+                                android:ems="10"
+                                android:hint="请输入验证码"
+                                android:inputType="number"
+                                android:padding="10dp"
+                                android:singleLine="true"
+                                android:textColorHint="#CCCCCC"
+                                android:textSize="16sp" />
+
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentTop="true"
+                    android:background="#636060"/>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/line1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/bottom1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center" >
+
+                    <Button
+                        android:id="@+id/bt_register"
+                        android:layout_width="fill_parent"
+                        android:layout_height="50dp"
+                        android:text="下一步"
+                        android:textColor="#615e5e"
+                        android:textSize="17sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

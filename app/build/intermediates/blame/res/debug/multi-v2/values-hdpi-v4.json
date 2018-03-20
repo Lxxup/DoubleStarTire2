@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\developer\\Desktop\\222222\\666\\DoubleStarTire2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\developer\\Desktop\\222222\\666\\DoubleStarTire2\\app\\src\\main\\res\\values-hdpi\\dimens.xml",
+                    "from": {
+                        "startLines": "5,7,6,8,4,3,2",
+                        "startColumns": "0,0,0,0,0,0,0",
+                        "startOffsets": "176,257,214,301,138,94,51",
+                        "endColumns": "37,43,42,41,37,43,42",
+                        "endOffsets": "213,300,256,342,175,137,93"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,97,145,192,238,280,328",
+                        "endColumns": "41,47,46,45,41,47,46",
+                        "endOffsets": "92,140,187,233,275,323,370"
+                    }
+                }
+            ]
+        }
+    ]
+}

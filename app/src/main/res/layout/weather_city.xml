@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/orange" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:padding="10dp"
+            android:text="选择城市"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+    <ExpandableListView
+        android:id="@+id/citys_elv"
+        android:layout_width="fill_parent"
+        android:divider="#FFE0E0E0"
+        android:dividerHeight="1dp"
+        android:layout_marginLeft="10dp"
+        android:paddingLeft="10dp"
+        android:background="#FFF3F3F3"
+        android:cacheColorHint="#00000000" 
+        android:childDivider="#FFE0E0E0"
+        android:groupIndicator="@null"
+        android:layout_height="wrap_content" >
+    </ExpandableListView>
+
+</LinearLayout>

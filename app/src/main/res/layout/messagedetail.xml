@@ -1,0 +1,88 @@
+<LinearLayout android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:background="#ffffff"
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical">
+ <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/maintab_toolbar_bg"
+        android:gravity="center_vertical" >
+
+        <LinearLayout
+            android:id="@+id/detail_back"
+            android:layout_width="60dp"
+            android:layout_height="fill_parent"
+            android:background="@drawable/common_header_bg_sel"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/arrow_button_normal" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="50dp"
+            android:layout_toRightOf="@+id/detail_back"
+            android:background="@drawable/home_bottom_split" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="4dp"
+            android:layout_toRightOf="@+id/detail_back"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                style="@style/common_text_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:paddingLeft="60dp"
+                android:paddingRight="60dp"
+                android:singleLine="true"
+                android:text="留言详情"/>
+        </LinearLayout>
+    </RelativeLayout>
+        <TextView
+            android:id="@+id/dt_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            android:text="title"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+        <TextView 
+            android:id="@+id/dt_content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            android:text="content"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+        <TextView 
+            android:id="@+id/dt_feedback"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            android:text="feedback"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+    </LinearLayout>

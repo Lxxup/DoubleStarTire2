@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/maintab_toolbar_bg"
+        android:gravity="center_vertical" >
+
+        <LinearLayout
+            android:id="@+id/common_head_back"
+            android:layout_width="60dp"
+            android:layout_height="fill_parent"
+            android:background="@drawable/common_header_bg_sel"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/arrow_button_normal" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="50dp"
+            android:layout_toRightOf="@+id/common_head_back"
+            android:background="@drawable/home_bottom_split" />
+
+        <TextView
+            android:id="@+id/common_head_title"
+            style="@style/common_text_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="用户注册" />
+    </RelativeLayout>
+
+
+
+<!--
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="#f4f5f6">
+
+        <TextView
+            android:id="@+id/login_back_register"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/return_icon" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="用户注册" />
+
+    </RelativeLayout>-->
+    <LinearLayout
+        android:padding="25dp"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="#66cccc"
+        android:orientation="vertical" >
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_split_line"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical"
+                android:text="*电话号码："
+                android:textColor="@color/common_black"
+                 />
+
+            <EditText
+                android:id="@+id/register_account"
+                android:layout_width="60dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:enabled="false"
+                android:textColor="#858585" />
+           
+        </LinearLayout>
+         <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/bg_split_line"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical"
+                android:textSize="16sp"
+                android:text="*姓         名："
+                android:textColor="@color/common_black" />
+
+              <EditText
+                  android:id="@+id/register_username"
+                  android:layout_width="0dp"
+                  android:layout_height="fill_parent"
+                  android:layout_weight="1.02"
+                  android:textColor="@color/common_black" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/bg_split_line"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical"
+                android:textSize="16sp"
+                android:text="*设置密码："
+                android:textColor="@color/common_black" />
+
+              <EditText
+                  android:id="@+id/register_password"
+                  android:layout_width="0dp"
+                  android:layout_height="fill_parent"
+                  android:layout_weight="1"
+                  android:textColor="@color/common_black" 
+                  android:hint="4位以上字母数字组合，区分大小写~"
+                  android:password="true"
+                  android:textSize="12dip"/>
+
+        </LinearLayout>
+        
+         <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/bg_split_line"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical"
+                android:textSize="16sp"
+                android:text="*再置密码："
+                android:textColor="@color/common_black" />
+
+              <EditText
+                  android:id="@+id/register_repassword"
+                  android:layout_width="0dp"
+                  android:layout_height="fill_parent"
+                  android:layout_weight="1"
+                  android:textColor="@color/common_black"
+                  android:hint="请再设置一次密码~"
+                   android:password="true"
+                  android:textSize="12dip" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="48.0dip"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/bg_split_line"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical"
+                android:textSize="16sp"
+                android:text="*车轮数量："
+                android:textColor="@color/common_black" />
+
+            <Spinner
+                android:id="@+id/sp_tirenum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/common_black"
+                android:entries="@array/wheel_num"
+                />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="48.0dip"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/bg_split_line"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical"
+                android:textSize="16sp"
+                android:text="  车牌号码： "
+                android:textColor="@color/common_black" />
+
+            <Spinner
+                android:id="@+id/sp_regprovince"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:entries="@array/register_province"
+                android:textColor="@color/common_black" />
+
+             <Spinner
+                 android:id="@+id/sp_regzimu"
+                 android:layout_width="72dp"
+                 android:layout_height="wrap_content"
+                 android:entries="@array/register_zimu"
+                 android:textColor="@color/common_black" />
+             
+           <EditText
+               android:id="@+id/register_carnum"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textColor="@color/common_black" 
+               android:textSize="12sp"
+               android:hint="不区分大小写"
+               android:maxLength="5"/>
+              
+        </LinearLayout>
+        
+         <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/bg_split_line"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical"
+                android:textSize="16sp"
+                android:text="  车辆型号： "
+                android:textColor="@color/common_black" />
+
+              <EditText
+                  android:id="@+id/register_xinghao"
+                  android:layout_width="0dp"
+                  android:layout_height="fill_parent"
+                  android:layout_weight="1"
+                  android:textColor="@color/common_black" />
+
+        </LinearLayout>
+        
+          <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/bg_split_line"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical"
+                android:textSize="16sp"
+                android:text="  轮胎规格： "
+                android:textColor="@color/common_black" />
+
+              <EditText
+                  android:id="@+id/register_tiresize"
+                  android:layout_width="0dp"
+                  android:layout_height="fill_parent"
+                  android:layout_weight="1"
+                  android:textColor="@color/common_black" />
+
+        </LinearLayout>
+        
+
+           <Button
+               android:id="@+id/bt_register"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="20dp"
+               android:textSize="16sp"
+               android:background="@drawable/bg_button"
+               android:layout_gravity="center"
+               android:text="注&#160;&#160;&#160;册"
+               android:textColor="@color/white" />
+
+           <TextView 
+               android:layout_width="246dp"
+               android:layout_height="33dp"
+               android:layout_marginTop="8dp"
+               android:layout_gravity="right"
+               android:layout_centerVertical="true"
+               android:text="带*为必填项，请认真填写"
+              android:textColor="@color/common_black"/>
+
+    </LinearLayout>
+   
+</LinearLayout>
+
+
+    <!--
+    <?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/maintab_toolbar_bg"
+            android:gravity="center_vertical" >
+
+            <LinearLayout
+                android:id="@+id/common_head_back"
+                android:layout_width="60dp"
+                android:layout_height="fill_parent"
+                android:background="@drawable/common_header_bg_sel"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/arrow_button_normal" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:layout_toRightOf="@+id/common_head_back"
+                android:background="@drawable/home_bottom_split" />
+
+            <TextView
+                android:id="@+id/common_head_title"
+                style="@style/common_text_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="用户注册" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:background="#66cccc"
+            android:orientation="vertical" >
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_split_line"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="16.0dip"
+                    android:text="*电话号码："
+                    android:textColor="#858585" />
+
+                <EditText
+                    android:id="@+id/register_account"
+                    android:layout_width="60dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.95"
+                    android:enabled="false"
+                    android:textColor="#858585" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/bg_split_line"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="16.0dip"
+                    android:text="*姓        名："
+                    android:textColor="@color/common_black" />
+
+                <EditText
+                    android:id="@+id/register_username"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.02"
+                    android:textColor="@color/common_black" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/bg_split_line"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="16.0dip"
+                    android:text="*设置密码："
+                    android:textColor="@color/common_black" />
+
+                <EditText
+                    android:id="@+id/register_password"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:textColor="@color/common_black"
+                    android:hint="4位以上字母数字组合，区分大小写~"
+                    android:password="true"
+                    android:textSize="12dip"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/bg_split_line"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="16.0dip"
+                    android:text="*再置密码："
+                    android:textColor="@color/common_black" />
+
+                <EditText
+                    android:id="@+id/register_repassword"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:textColor="@color/common_black"
+                    android:hint="请再设置一次密码~"
+                    android:password="true"
+                    android:textSize="12dip" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="48.0dip"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/bg_split_line"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="16.0dip"
+                    android:text="车牌号码： "
+                    android:textColor="@color/common_black" />
+
+                <Spinner
+                    android:id="@+id/sp_regprovince"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/register_province"
+                    android:textColor="@color/common_black" />
+
+                <Spinner
+                    android:id="@+id/sp_regzimu"
+                    android:layout_width="72dp"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/register_zimu"
+                    android:textColor="@color/common_black" />
+
+                <EditText
+                    android:id="@+id/register_carnum"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/common_black"
+                    android:textSize="12sp"
+                    android:hint="不区分大小写"
+                    android:maxLength="5"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/bg_split_line"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="16.0dip"
+                    android:text="车辆型号 ： "
+                    android:textColor="@color/common_black" />
+
+                <EditText
+                    android:id="@+id/register_xinghao"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:textColor="@color/common_black" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/bg_split_line"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="16.0dip"
+                    android:text="轮胎规格 ： "
+                    android:textColor="@color/common_black" />
+
+                <EditText
+                    android:id="@+id/register_tiresize"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:textColor="@color/common_black" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="48.0dip"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/bg_split_line"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="16.0dip"
+                    android:text="*车轮数量："
+                    android:textColor="@color/common_black" />
+
+                <Spinner
+                    android:id="@+id/sp_tirenum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/common_black"
+                    android:entries="@array/wheel_num"
+                    />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/bt_register"
+                android:layout_width="246dp"
+                android:layout_height="33dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/bg_button"
+                android:layout_gravity="center"
+                android:text="注    册"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:layout_width="246dp"
+                android:layout_height="33dp"
+                android:layout_marginTop="3dp"
+                android:layout_centerVertical="true"
+                android:text="  带*为必填项，请认真填写"
+                android:textColor="@color/common_black"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    -->

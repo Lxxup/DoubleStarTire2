@@ -1,0 +1,32 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 10
+    buildToolsVersion "27.0.3"
+
+    defaultConfig {
+        applicationId "com.ds.tire"
+        minSdkVersion 10
+        targetSdkVersion 17
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:18.0.0'
+    compile files('libs/android_api_1.1_forsdk.jar')
+    compile files('libs/baidumapapi_v2_3_1.jar')
+    compile files('libs/BaiduNaviSDK_v1_0_0.jar')
+    compile files('libs/httpmime-4.1.3.jar')
+    compile files('libs/locSDK_3.1.jar')
+    compile files('libs/need_lib.jar')
+    compile files('libs/paho-mqtt-client-1.0.1.jar')
+    compile files('libs/SmartWeatherAPI_Android_3.0.2.jar')
+    compile files('libs/umeng-sdk-analytics_v5.2.2_xp_v5.6_fb_v4.3.1_update_v2.4.1.jar')
+}

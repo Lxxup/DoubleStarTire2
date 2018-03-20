@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/maintab_toolbar_bg"
+            android:gravity="center_vertical" >
+
+            <LinearLayout
+                android:id="@+id/common_head_back"
+                android:layout_width="60dp"
+                android:layout_height="fill_parent"
+                android:background="@drawable/common_header_bg_sel"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/arrow_button_normal" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:layout_toRightOf="@+id/common_head_back"
+                android:background="@drawable/home_bottom_split" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_marginLeft="4dp"
+                android:layout_toRightOf="@+id/common_head_back"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/common_head_title"
+                    style="@style/common_text_title"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:paddingLeft="60dp"
+                    android:paddingRight="60dp"
+                    android:singleLine="true"
+                    android:text="网点查询"
+                    android:textColor="#FFFFFF"
+                    android:textSize="25sp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:background="#FCFCFC"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="40dp"
+                android:text="选择服务类型 : "
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/sp_servicetype"
+                android:layout_width="120dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="26dp"
+                android:layout_marginTop="35dp"
+                android:layout_toRightOf="@+id/textView1"
+                android:entries="@array/service_type"
+                android:textColor="@color/common_black" />
+
+            <Button
+                android:id="@+id/bt_search"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/sp_servicetype"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="14dp"
+                android:background="@drawable/bg_button"
+                android:gravity="center"
+                android:text="在附近搜索"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lv_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:layout_weight="1"
+        android:background="#FCFCFC"
+        android:divider="#454545"
+        android:dividerHeight="1px" >
+    </ListView>
+
+</LinearLayout>

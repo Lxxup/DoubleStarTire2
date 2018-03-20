@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/flight_list_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/maintab_toolbar_bg"
+        android:gravity="center_vertical" >
+
+        <LinearLayout
+            android:id="@+id/common_head_back"
+            android:layout_width="60dp"
+            android:layout_height="fill_parent"
+            android:background="@drawable/common_header_bg_sel"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/arrow_button_normal" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="50dp"
+            android:layout_toRightOf="@+id/common_head_back"
+            android:background="@drawable/home_bottom_split" />
+
+        <TextView
+            android:id="@+id/common_head_title"
+            style="@style/common_text_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="个人中心" />
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/tv_order_history"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_settings_item"
+        android:drawableRight="@drawable/more"
+        android:gravity="center_vertical"
+        android:paddingLeft="16dp"
+        android:text="历史订单"
+        android:textColor="@color/common_black" />
+
+    <TextView
+        android:id="@+id/bt_modify_password"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_settings_item"
+        android:drawableRight="@drawable/more"
+        android:gravity="center_vertical"
+        android:paddingLeft="16dp"
+        android:text="修改密码"
+        android:textColor="@color/common_black" />
+
+    <TextView
+        android:id="@+id/vehicle_info"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_settings_item"
+        android:drawableRight="@drawable/more"
+        android:gravity="center_vertical"
+        android:paddingLeft="16dp"
+        android:text="车辆信息"
+        android:textColor="@color/common_black" />
+    <TextView
+        android:id="@+id/tv_ask"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_settings_item"
+        android:drawableRight="@drawable/more"
+        android:gravity="center_vertical"
+        android:paddingLeft="16dp"
+        android:text="用户建议"
+        android:textColor="@color/common_black" />
+
+</LinearLayout>

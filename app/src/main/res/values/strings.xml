@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">双星云犬</string>
+    <string name="network_dialog_title">网络异常</string>
+    <string name="network_dialog_message">网络出现异常，请在设置中开启移动网络或无线网络！</string>
+    <string name="network_dialog_positive">设置</string>
+    <string name="network_dialog_negative">取消</string>
+    <string name="alert">提示</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="company">&#160;&#160;&#160;&#160;双星轮胎是全球知名的轮胎制造商、国内外著名的上市公司，下设青岛轮胎本部、东风轮胎本部，以“第一、发展、开放”为目标，
+致力于为用户创造最有价值的产品和服务。\n  &#160;&#160;&#160;&#160;遵循创造需求、引领市场的思想，组建了轮胎中央研究院、国家级企业技术中心、
+国家级质量检测中心，从研发、采购、生产、销售、物流及售后服务等进行全方位高品质管理，打造严密的技术质量控制体系。
+产品顺利通过ISO/TS16949质量管理体系认证、3C强制性产品认证、欧美汽车工业标准ECE和美国DOT、巴西INMETRO、沙特GCC等认证。\n  
+&#160;&#160;&#160;&#160;坚持最优的产品，合适的价格，与客户一起提高终端销速，销售网络遍布全国，是中国一汽、东风汽车、中国重汽、福田汽车、陕汽、
+中集集团、江淮汽车、长安汽车、五征汽车等几十家国内著名汽车生产厂家的主要供应商，并出口欧美、非洲、东南亚、中东等140多
+个国家和地区。本着“用户是企业的最高领导”的宗旨，设立24小时服务热线，建立遍布海内外的服务平台，为用户提供全天候服务，
+让双星轮胎成为用户首选。奉行“绿色、环保、节能、安全”的方针，双星轮胎将与广大客户一起，共同创新，
+向着“创双星轮胎世界名牌”的目标迈进！  
+</string>
+<string name="xieyi">
+&#160;&#160;&#160;&#160;&#160;&#160;质量承诺：\n
+&#160;&#160;&#160;&#160;1、双星劲倍力轮胎承诺使用30万公里不换胎。经双星专业人员鉴定，若花纹磨耗达不到承诺里程，每少万公里补偿50元/条；花纹磨耗超出承诺里程，每100名抽取3名进行奖励，给与奖励100元。若用户未按使用限定使用、使用不当或在使用过程中出现产品自身质量问题时，则不予以补助。\n
+&#160;&#160;&#160;&#160;自购买之日起一年内因质量问题导致花纹磨耗达不到承诺里程，每万公里补助30元，轮胎按照双星轮胎理赔标准正常理赔。为保证用户直接受益， 补助奖励金额双星以手机费的形式直接给用户手机充值。\n
+&#160;&#160;&#160;&#160;2、用户购买双星劲倍力轮胎后获赠“0延误救援服务”卡，用户拨打4000176666服务热线激活卡片，安装双星轮胎APP客户端进行注册，并填写《双星轮胎质量承诺卡》。经销商将12小时内将用户填写的《双星轮胎质量承诺卡》底联转至双星服务部回访审核，确认真实给用户发送确认短信后质量承诺方可生效。  \n
+&#160;&#160;&#160;&#160;3、用户轮胎因质量问题导致花纹磨耗达不到承诺里程，或花磨耗超出承诺里程，需要拨打4000176666热线或通过双星轮胎APP进行提报需求，热线派工至就近指定服务网点进行鉴定。\n
+&#160;&#160;&#160;&#160;4、服务网点用户轮胎进行鉴定拍照；并核对用户《双星轮胎质量承诺卡》，鉴定服务完毕后，服务网点填写《轮胎检验报告书》，用户签字确认，轮胎质量问题按照《双星轮胎全钢子午线轮胎理赔标准》给予理赔。\n
+&#160;&#160;&#160;&#160;5、服务网点12小时内将用户确认的《轮胎检验报告书》、《双星轮胎质量承诺卡》。和鉴定照片传至双星服务部进行审核。\n
+&#160;&#160;&#160;&#160;服务部审核确认后将相应补助或奖励金额给用户收费费充值。\n
+
+</string>
+<string name = "qianmingpromise">
+1、用户按双星轮胎使用须知，使用双星劲倍力全钢子午线轮胎;\n
+2、车辆主要行驶路面为等级公路、高速路面，车辆需按标准载荷;\n
+3、轮胎需按照双星劲倍力花纹性能装配轮位，单胎负荷低于4t，充气气压按国际使用条件及轮胎胎侧标识执行，适应运距为300KM以上，每年行驶里程在100000KM—150000KM;\n
+4、车辆行驶速度110KM/h以下，车辆装载货物应分布均匀，避免某一轮胎负荷过重。
+</string>
+<string name="tebiechengnuo">
+&#160;&#160;&#160;&#160;双星劲倍力轮胎超耐磨、高里程，承诺三包期内使用30万公里不换胎。经双星专业技术人员鉴定，若花纹磨耗达不到承诺里程，每少万公里补偿50元/条；花纹磨耗超出承诺里程，每100名抽取3名进行奖励，给予奖励100元。（用户未按使用限定使用、使用不当或在使用过程中出现产品自身质量问题时，则不予以补助。）
+</string>
+    <string name="taxi_number">车牌号：</string>
+    <string name="waiting_resuce">等待救援</string>
+    <string name="driver">司     机：</string>
+    <string name="distance">距     离：</string>
+    <string name="hint_data"></string>
+    <string name="comment">服务评价</string>
+    <string name="call">呼叫司机</string>
+    <string name="call_driver">呼叫司机</string>
+
+    <string-array name="comments">
+        <item>好评</item>
+        <item>差评</item>
+        <item>未处理</item>
+    </string-array>
+
+    <string name="oil_info">油耗信息</string>
+    <string name="oil_avg">当前平均油耗:</string>
+    <string name="oil_unit">L/KM</string>
+    <string name="start_time">开始时间</string>
+    <string name="end_time">截止时间</string>
+    <string name="add_oil">加油</string>
+    <string name="station">加油站名称</string>
+    <string name="oil_mount">油量(L)</string>
+    <string name="oil_type">油类型</string>
+    <string name="milage">里程(km)</string>
+    <string name="time">时间</string>
+    <string name="oil_full">是否加满</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="submit">提交数据</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="faq">安全知识</string>
+    <string name="feedback">意见反馈</string>
+    <string name="setting">设置</string>
+    <string name="tel">400-017-6666</string>
+    <string name="login">"  登    录"</string>
+    <string name="login_account_hint2">手机号</string>
+    <string name="password">密码</string>
+    <string name="memorize_account">记住账户</string>
+    <string name="login_auto_login">自动登录</string>
+    <string name="memorize_password">记住密码</string>
+
+    <string-array name="vehicle_usage">
+        <item>其他</item>
+        <item>货运</item>
+        <item>客运</item>
+    </string-array>
+    <string-array name="vehicle_env">
+        <item>其他</item>
+        <item>工地</item>
+        <item>矿山</item>
+        <item>雪地</item>
+        <item>高原</item>
+        <item>沙漠</item>
+        <item>山路</item>
+        <item>公路</item>
+    </string-array>
+    <string-array name="wheel_num">
+        <item>2</item>
+        <item>4</item>
+        <item>6</item>
+        <item>8</item>
+        <item>10</item>
+        <item>12</item>
+        <item>14</item>
+        <item>16</item>
+        <item>18</item>
+        <item>20</item>
+        <item>22</item>
+    </string-array>
+    
+     <string-array name="register_zimu">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>  
+    </string-array>
+    
+     <string-array name="sp_chexing">
+        <item>商用-自卸车</item>
+        <item>商用-载货车</item>
+        <item>商用-牵引车</item>
+        <item>商用-挂车</item>
+        <item>商用-专用车</item>
+        <item>商用-皮卡</item>
+        <item>商用-微卡</item>
+        <item>商用-轻卡</item>
+        <item>商用-微客</item>
+        <item>乘用-微型车</item>
+        <item>乘用-小型车</item>
+        <item>乘用-紧凑型车</item>
+        <item>乘用-中型车</item>
+        <item>乘用-中大型车</item>
+        <item>乘用-豪华车</item>
+        <item>乘用-MPV</item>
+        <item>乘用-SUV</item>
+        <item>乘用-跑车</item>
+                  
+    </string-array>
+     <string-array name="register_province">
+        <item>京</item>
+        <item>沪</item>
+        <item>津</item>
+        <item>渝</item>
+        <item>冀</item>
+        <item>豫</item>
+        <item>云</item>
+        <item>辽</item>
+        <item>黑</item>
+        <item>湘</item>
+        <item>皖</item>
+        <item>鲁</item>
+        <item>新</item>
+        <item>苏</item>
+        <item>浙</item>
+        <item>赣</item>
+        <item>鄂</item>
+        <item>贵</item>
+        <item>甘</item>
+        <item>晋</item>
+        <item>蒙</item>
+        <item>陕</item>
+        <item>吉</item>
+        <item>闽</item>
+        <item>桂</item>
+        <item>粤</item> 
+        <item>青</item>
+        <item>藏</item>
+        <item>川</item>
+        <item>宁</item>
+        <item>琼</item>
+          
+    </string-array>
+    
+     <string-array name="service_type">
+        <item>商用</item>
+        <item>乘用</item>       
+    </string-array>
+     <string name="action_settings">设置</string>
+    <string name="action_cancel">取消</string>
+    <string name="action_ok">确认</string>
+    <string name="action_secure_connect">安全连接</string>
+    <string name="action_insecure_connect">非安全连接</string>
+    <string name="action_discoverable">可搜索</string>
+    <string name="action_synchro">同步</string>
+    <string name="action_exit">退出</string>
+
+    
+    
+    
+    <string name="not_connected">没有连接</string>
+    <string name="title_connected_to">已连接</string>
+    <string name="title_connecting">链接ing</string>
+    <string name="title_not_connected">无连接</string>
+    <string name="bt_not_enabled_leaving">BT not enabled</string>
+    <string name="button_scan">扫描设备</string>
+    <string name="title_paired_devices">已经配对的设备</string>
+    <string name="title_other_devices">没有经过配对的设备信息</string>
+    <string name="none_paired">无配对设备</string>
+    <string name="scanning">扫描ing</string>
+    <string name="select_device">选择设备</string>
+    <string name="none_found">没有找到</string>
+    <string name="default_value">无数据</string>
+    <string name="default_state">正在校准数据...</string>
+    
+    <!--天气预报-->
+    <string name="app_name1">天气预报</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="logout">退出</string>
+    <string name="count">计  算</string>
+  
+</resources>

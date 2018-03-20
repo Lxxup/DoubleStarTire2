@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 定义按下，获得焦点，普通时按钮的样式 -->
+<selector
+xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:state_pressed="true" android:drawable="@drawable/button_bg_01_press_bottom"></item>
+	<item android:state_focused="true" android:drawable="@drawable/button_bg_01_press_bottom"></item>
+	<item android:drawable="@drawable/button_bg_01_bottom"></item>
+</selector>

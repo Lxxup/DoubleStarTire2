@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@color/white">
+    
+      <RelativeLayout
+        android:id="@+id/lay"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/maintab_toolbar_bg"
+        android:gravity="center_vertical" >
+
+        <LinearLayout
+            android:id="@+id/safe_back"
+            android:layout_width="60dp"
+            android:layout_height="fill_parent"
+            android:background="@drawable/common_header_bg_sel"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/arrow_button_normal" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="50dp"
+            android:layout_toRightOf="@+id/safe_back"
+            android:background="@drawable/home_bottom_split" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="4dp"
+            android:layout_toRightOf="@+id/common_head_back"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/common_head_title"
+                style="@style/common_text_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:paddingLeft="60dp"
+                android:paddingRight="60dp"
+                android:singleLine="true"
+                android:text="设置压强和温度" />
+        </LinearLayout>
+      </RelativeLayout>  
+      <TextView  
+        android:id="@+id/chexing"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lay" 
+        android:text="请选择车型："
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"/>
+       <LinearLayout 
+        android:id="@+id/setChexing"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:layout_below="@+id/chexing"   
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp">
+      <RadioGroup 
+        android:id="@+id/car"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/smallCar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"  
+            android:textColor="@color/black" 
+            
+            android:text="小车型" />
+        <RadioButton
+            android:id="@+id/bigCar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_marginLeft="40dp"
+            android:text="大车型" />
+        
+    </RadioGroup>
+     </LinearLayout>
+     <View
+        android:id="@+id/lins"
+        android:layout_width="fill_parent"
+        android:layout_height="2dip"
+        android:layout_marginTop="6dp"
+        android:layout_below="@+id/setChexing"
+        android:background="#ffEDEDED" />
+    <TextView  
+        android:id="@+id/setWendu"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lins" 
+        android:text="请设置温度："
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"/>
+    
+    <LinearLayout 
+        android:id="@+id/setWendutitle1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:layout_below="@+id/setWendu"   
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp">
+      <TextView 
+        android:id="@+id/setWenduToptitle"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:textColor="@color/red"          
+        android:text="温度上限："/>
+      <EditText 
+        android:id="@+id/setWenduTop"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_marginRight="20dp" />
+     </LinearLayout>
+    
+   <LinearLayout 
+        android:id="@+id/setWendutitle2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"  
+        android:layout_below="@+id/setWendutitle1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp">
+     <TextView  
+        android:id="@+id/setWenduBottitle"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:textColor="@color/red"    
+        android:text="温度下限："/>
+    <EditText
+        android:id="@+id/setWenduBot"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_marginRight="20dp" />
+ </LinearLayout>
+ <View
+        android:id="@+id/lin1"
+        android:layout_width="fill_parent"
+        android:layout_height="2dip"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/setWendutitle2"
+        android:background="#ffEDEDED" />
+    <TextView 
+        android:id="@+id/setYaqiang"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="请设置胎压："
+        android:layout_below="@+id/lin1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="30dp"/>
+   <LinearLayout 
+        android:id="@+id/setYaqiangtitle1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:layout_below="@+id/setYaqiang"   
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp">
+      <TextView 
+        android:id="@+id/setYaqiangToptitle"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:textColor="@color/red"
+        android:layout_below="@+id/setYaqiang"          
+        android:text="胎压上限："/>
+      <EditText 
+        android:id="@+id/setYaqiangTop"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_marginRight="20dp" />
+    </LinearLayout>
+    <LinearLayout 
+        android:id="@+id/setYaqiangtitle2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:layout_below="@+id/setYaqiangtitle1"   
+        android:gravity="center_vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp">
+    <TextView  
+        android:id="@+id/setYaqiangBottitle"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:textColor="@color/red"
+        android:layout_below="@+id/setYaqiangToptitle"          
+        android:text="胎压下限："/>
+    <EditText 
+        android:id="@+id/setYaqiangBot"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_marginRight="20dp" />
+     </LinearLayout>
+    
+    <Button 
+        android:id="@+id/submitData"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:background="@drawable/bg_red_button"
+        android:layout_below="@+id/setYaqiangtitle2"
+        android:layout_centerInParent="true"
+        android:text="提 交"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="30dp"/>
+
+</RelativeLayout>

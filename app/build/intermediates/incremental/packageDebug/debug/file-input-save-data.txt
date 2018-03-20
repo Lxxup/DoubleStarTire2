@@ -1,0 +1,35 @@
+#Internal package file, do not edit.
+#Tue Mar 20 00:38:27 CST 2018
+7.path=channel1
+2.base=C\:\\Users\\developer\\Desktop\\222222\\666\\DoubleStarTire2\\app\\build\\intermediates\\assets\\debug
+5.set=NATIVE_RESOURCE
+0.path=code.txt
+2.baseType=DIRECTORY
+3.base=C\:\\Users\\developer\\Desktop\\222222\\666\\DoubleStarTire2\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
+7.baseType=DIRECTORY
+2.set=ASSET
+1.path=lib/armeabi/libBaiduMapSDK_v2_3_1.so
+4.base=C\:\\Users\\developer\\Desktop\\222222\\666\\DoubleStarTire2\\app\\build\\intermediates\\assets\\debug
+7.set=ASSET
+count=8
+5.baseType=DIRECTORY
+2.path=cities.json
+5.base=C\:\\Users\\developer\\Desktop\\222222\\666\\DoubleStarTire2\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
+4.set=ASSET
+3.path=lib/armeabi/libvi_voslib.so
+6.base=C\:\\Users\\developer\\Desktop\\222222\\666\\DoubleStarTire2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+3.baseType=DIRECTORY
+1.set=NATIVE_RESOURCE
+4.path=BaiduNaviSDK_Resource_v1_0_0.png
+7.base=C\:\\Users\\developer\\Desktop\\222222\\666\\DoubleStarTire2\\app\\build\\intermediates\\assets\\debug
+6.set=DEX
+1.baseType=DIRECTORY
+6.baseType=DIRECTORY
+5.path=lib/armeabi/liblocSDK3.so
+0.base=C\:\\Users\\developer\\Desktop\\222222\\666\\DoubleStarTire2\\app\\build\\intermediates\\assets\\debug
+0.baseType=DIRECTORY
+3.set=NATIVE_RESOURCE
+6.path=classes.dex
+1.base=C\:\\Users\\developer\\Desktop\\222222\\666\\DoubleStarTire2\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
+4.baseType=DIRECTORY
+0.set=ASSET

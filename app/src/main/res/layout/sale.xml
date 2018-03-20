@@ -1,0 +1,67 @@
+<LinearLayout 
+android:layout_width="fill_parent" 
+android:layout_height="fill_parent" 
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:background="#ffffff">
+<TableLayout android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal"
+android:background="#adadad"
+android:stretchColumns="*">
+<TableRow>
+<TextView android:layout_width="wrap_content"
+android:layout_height="fill_parent"
+android:layout_weight="1"
+android:text="左前：2.5bar，36℃"
+android:gravity="center"
+android:background="#ffffff" android:layout_margin="0.5dp"/>
+<TextView android:layout_width="wrap_content"
+android:layout_height="fill_parent"
+android:layout_weight="1"
+android:text="右前：2.5bar，36℃"
+android:gravity="center"
+android:background="#ffffff" android:layout_margin="0.5dp"/>
+</TableRow>
+<TableRow>
+<TextView android:layout_width="wrap_content"
+android:layout_height="fill_parent"
+android:layout_weight="1"
+android:text="左后：2.5bar，36℃"
+android:gravity="center"
+android:background="#ffffff" android:layout_margin="0.5dp"/>
+<TextView android:layout_width="wrap_content"
+android:layout_height="fill_parent"
+android:layout_weight="1"
+android:text="右后：2.5bar，36℃"
+android:gravity="center"
+android:background="#ffffff" android:layout_margin="0.5dp"/>
+</TableRow>
+</TableLayout>
+ <RelativeLayout 
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:background="@drawable/maintab_toolbar_bg">
+     <ImageView
+            android:id="@+id/sale_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/setting_top_back_default" />
+     <TextView 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="油耗计算器"
+		android:textSize="22sp"
+		android:layout_centerInParent="true"
+		android:gravity="center"
+		android:textColor="#ffffff"/>
+ </RelativeLayout>
+ 
+    <ImageView 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:src="@drawable/salenet"/>
+</LinearLayout>

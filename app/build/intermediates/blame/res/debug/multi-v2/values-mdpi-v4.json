@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\developer\\Desktop\\222222\\666\\DoubleStarTire2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-mdpi-v4\\values-mdpi-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\developer\\Desktop\\222222\\666\\DoubleStarTire2\\app\\src\\main\\res\\values-mdpi\\dimens.xml",
+                    "from": {
+                        "startLines": "5,7,6,8,4,3,2",
+                        "startColumns": "0,0,0,0,0,0,0",
+                        "startOffsets": "182,267,222,311,142,96,51",
+                        "endColumns": "39,43,44,43,39,45,44",
+                        "endOffsets": "221,310,266,354,181,141,95"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,99,147,196,244,288,338",
+                        "endColumns": "43,47,48,47,43,49,48",
+                        "endOffsets": "94,142,191,239,283,333,382"
+                    }
+                }
+            ]
+        }
+    ]
+}

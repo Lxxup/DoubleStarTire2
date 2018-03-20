@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="qi_ya" type="id"/>
+    <item name="wen_du" type="id"/>
+    <item name="jiasudu" type="id"/>
+    <item name="mId" type="id"/>
+
+</resources>

@@ -1,0 +1,119 @@
+<LinearLayout 
+android:layout_width="fill_parent" 
+android:layout_height="fill_parent" 
+android:orientation="vertical"
+xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/maintab_toolbar_bg"
+        android:gravity="center_vertical" >
+
+        <LinearLayout
+            android:id="@+id/mytire_back"
+            android:layout_width="60dp"
+            android:layout_height="fill_parent"
+            android:background="@drawable/common_header_bg_sel"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/arrow_button_normal" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="50dp"
+            android:layout_toRightOf="@+id/mytire_back"
+            android:background="@drawable/home_bottom_split" />
+
+            <TextView
+                android:id="@+id/common_head_title"
+                style="@style/common_text_title"
+                android:layout_centerInParent="true"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="设置轮胎序列号"/>
+        <Button android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="提交"
+        android:textColor="#ffffff"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/head_button_bg"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:id="@+id/submit"/>
+    </RelativeLayout>
+        <FrameLayout android:layout_width="fill_parent"
+	android:layout_height="fill_parent" >
+		<TableLayout android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:orientation="horizontal"
+		android:layout_gravity="bottom"
+		android:background="#adadad">
+		<TableRow android:layout_weight="1">
+		<LinearLayout android:layout_width="wrap_content"
+		android:layout_height="fill_parent"
+		android:layout_weight="1"
+		android:id="@+id/company"
+		android:background="@drawable/leftup"
+		android:layout_margin="0.5dp">
+		<EditText android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="100dp"
+        android:id="@+id/leftfront"/>
+		</LinearLayout>
+		<LinearLayout android:layout_width="wrap_content"
+		android:layout_height="fill_parent"
+		android:layout_weight="1"
+		android:id="@+id/product"
+		android:background="@drawable/rightup"
+		android:layout_margin="0.5dp">
+	 	<EditText android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="100dp"
+        android:id="@+id/rightfront"/>
+		</LinearLayout>
+	</TableRow>
+	<TableRow android:layout_weight="1">
+		<LinearLayout android:layout_width="wrap_content"
+		android:layout_height="fill_parent"
+		android:layout_weight="1"
+		android:id="@+id/sale"
+		android:background="@drawable/leftbottom"
+		android:layout_margin="0.5dp">
+	  	<EditText android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="100dp"
+        android:id="@+id/leftback"
+        android:layout_gravity="bottom"/>
+		</LinearLayout>
+		<LinearLayout android:layout_width="wrap_content"
+		android:layout_height="fill_parent"
+		android:layout_weight="1"
+		android:id="@+id/mytire"
+		android:background="@drawable/rightbottom"
+		android:layout_margin="0.5dp">
+		 <EditText android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="100dp"
+        android:id="@+id/rightback"
+        android:layout_gravity="bottom"/>
+		</LinearLayout>
+	</TableRow>
+	</TableLayout>
+	<TextView  
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content"  
+        android:layout_gravity="center"  
+        android:background="@drawable/car"/> 
+    </FrameLayout>
+    </LinearLayout>
+    

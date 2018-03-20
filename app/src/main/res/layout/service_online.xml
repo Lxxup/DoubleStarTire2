@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#EEEED1"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/bt_rescue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="123dp"
+        android:background="@drawable/bg_button"
+        android:text="       救     援          " />
+
+    <Button
+        android:id="@+id/bt_zlcn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/bt_rescue"
+        android:layout_below="@+id/bt_rescue"
+        android:layout_marginTop="87dp"
+        android:background="@drawable/bg_button"
+        android:text="   质  量  承  诺     " />
+
+</RelativeLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#FFFF0000</color>
+    <color name="dark_red">#FFAE0000</color>
+    <color name="black_red">#FFB90000</color>
+    <color name="light_grey">#FFCCCCCC</color>
+    <color name="grey">#FF999999</color>
+    <color name="dark_grey">#FF666666</color>
+    <color name="black_grey">#FF333333</color>
+    <color name="black_green">#FF009900</color>
+    <color name="green">#FF008000</color>
+<color name="white_grey">#FFDCDCDC</color>
+<color name="button_text">#ffffffff</color>
+    <color name="common_white">#ffffffff</color>
+    <color name="common_black">#ff333333</color>
+    <color name="common_hoar">#ffebebeb</color>
+    <color name="common_gray">#ff7f7f7f</color>
+    <color name="common_gray_light">#ff676767</color>
+    <color name="common_dark_gray">#ff999999</color>
+    <color name="common_brown">#ff623424</color>
+    <color name="common_red">#ffff0000</color>
+    <color name="common_orange">#ffff6d0c</color>
+    <color name="common_dark_orange">#ffff9900</color>
+    <color name="common_blue">#ffcae5ff</color>  
+    <color name="title_back_pressed">#ff0099cc</color>
+    <color name="flight_list_bg">#fff1f1f1</color>
+    <color name="transparent">#00000000</color>
+    <color name="shape_solid">#44067cb7</color>
+    <color name="shape_stroke">#aa0570a5</color>
+    
+   <!--天气预报-->
+    <color name="blue">#FF0000FF</color>
+   
+    <color name="Gainsboro">#DCDCDC</color>
+    <color name="light_orange">#FFF39801</color>
+    <color name="spark_orange">#FFFFD700</color>
+    <color name="orange">#FFF08200</color>
+    <color name="purple">#FF5B5AB1</color>
+    <color name="dark_blue">#FF0E5DA7</color>
+    <color name="light_blue">#FF2578C6</color>
+    <color name="dark_green">#FF3FA236</color>
+    <color name="mid_green">#FF51B149</color>
+    <color name="light_green">#FF6AC063</color>
+    <color name="mid_red">#FFEA5932</color>
+    <color name="bg_grey">#FFF4F4F4</color>
+    <color name="grey_red">#FF330000</color>
+    <color name="bg_pink">#FFFFF3E3</color>
+    <color name="light_red">#FFFE7459</color>
+    
+</resources>

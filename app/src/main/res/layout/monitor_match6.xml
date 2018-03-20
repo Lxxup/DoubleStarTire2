@@ -1,0 +1,386 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/maintab_toolbar_bg"
+        android:gravity="center_vertical" >
+
+        <LinearLayout
+            android:id="@+id/monitor_head_back"
+            android:layout_width="60dp"
+            android:layout_height="fill_parent"
+            android:background="@drawable/common_header_bg_sel"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/arrow_button_normal" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="50dp"
+            android:layout_toRightOf="@+id/monitor_head_back"
+            android:background="@drawable/home_bottom_split" />
+
+        <TextView
+            android:id="@+id/common_head_title"
+            style="@style/common_text_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="设备配对" />
+<Button
+            android:id="@+id/clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+          android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="60dp"
+            android:background="@drawable/head_button_bg"
+            android:text="清空设备"
+            android:textColor="#ffffff"
+            android:textSize="10sp" />
+       <Button
+            android:id="@+id/finish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/head_button_bg"
+            android:text="完成配对"
+            android:textColor="#ffffff"
+            android:textSize="10sp" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="bottom"
+            android:background="#adadad"
+            android:orientation="horizontal"
+            android:stretchColumns="0,1" >
+
+            <TableRow android:layout_weight="1" >
+
+                <LinearLayout
+                    android:id="@+id/wheel_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="0.5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/oneofsix"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@id/mId"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:text="@string/default_value"
+                        android:textColor="@android:color/white"
+                      />
+
+                  
+                       <TextView
+                        android:id="@id/addId"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                           android:textSize="16sp"
+                        android:text="添加设备"
+                        android:textColor="@android:color/white" />
+                      <TextView
+                        android:id="@id/updateId"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                         android:textSize="16sp"
+                        android:text="修改设备"
+                        android:textColor="@android:color/white" />
+                         <TextView
+                        android:id="@+id/clearId"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:text="清空设备"
+                        android:textSize="16sp"
+                        android:textColor="@android:color/white" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/wheel_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="0.5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/twoofsix"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@id/mId"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_margin="8dp"
+                        android:text="@string/default_value"
+                        android:textColor="@android:color/white"
+                    />
+
+         
+                       <TextView
+                        android:id="@id/addId"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:layout_gravity="right"
+                        android:text="添加设备"
+                             android:textSize="16sp"
+                        android:textColor="@android:color/white" />
+                      <TextView
+                        android:id="@id/updateId"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:layout_gravity="right"
+                        android:text="修改设备"
+                             android:textSize="16sp"
+                        android:textColor="@android:color/white" />
+                         <TextView
+                        android:id="@id/clearId"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:text="清空设备"
+                        android:textSize="16sp"
+                          android:layout_gravity="right"
+                        android:textColor="@android:color/white" />
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow android:layout_weight="1" >
+
+                <LinearLayout
+                    android:id="@+id/wheel_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="0.5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/threeofsix"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@id/mId"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:text="@string/default_value"
+                        android:textColor="@android:color/white"
+              />
+
+                    
+                       <TextView
+                        android:id="@id/addId"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:textSize="16sp"
+                        android:text="添加设备"
+                        android:textColor="@android:color/white" />
+                      <TextView
+                        android:id="@id/updateId"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+             android:textSize="16sp"
+                        android:text="修改设备"
+                        android:textColor="@android:color/white" />
+                         <TextView
+                        android:id="@id/clearId"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:text="清空设备"
+                        android:textSize="16sp"
+                        android:textColor="@android:color/white" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/wheel_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="0.5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/fourofsix"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@id/mId"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_margin="8dp"
+                        android:text="@string/default_value"
+                        android:textColor="@android:color/white"
+                  />
+
+          
+                       <TextView
+                        android:id="@id/addId"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:layout_gravity="right"
+                        android:text="添加设备"
+                             android:textSize="16sp"
+                        android:textColor="@android:color/white" />
+                      <TextView
+                        android:id="@id/updateId"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:layout_gravity="right"
+                        android:text="修改设备"
+                             android:textSize="16sp"
+                        android:textColor="@android:color/white" />
+                         <TextView
+                        android:id="@id/clearId"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:text="清空设备"
+                          android:layout_gravity="right"
+                        android:textSize="16sp"
+                        android:textColor="@android:color/white" />
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow android:layout_weight="1" >
+
+                <LinearLayout
+                    android:id="@+id/wheel_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="0.5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/fiveofsix"
+                    android:gravity="bottom"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@id/mId"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:text="@string/default_value"
+                        android:textColor="@android:color/white"
+                      />
+
+                              <TextView
+                        android:id="@id/addId"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:textSize="16sp"
+                        android:text="添加设备"
+                        android:textColor="@android:color/white" />
+                      <TextView
+                        android:id="@id/updateId"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+             android:textSize="16sp"
+                        android:text="修改设备"
+                        android:textColor="@android:color/white" />
+                         <TextView
+                        android:id="@id/clearId"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:text="清空设备"
+                        android:textSize="16sp"
+                        android:textColor="@android:color/white" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/wheel_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="0.5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/sixofsix"
+                    android:gravity="bottom"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@id/mId"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_margin="8dp"
+                        android:text="@string/default_value"
+                        android:textColor="@android:color/white"
+                       />
+            <TextView
+                        android:id="@id/addId"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                      android:layout_gravity="right"
+                        android:text="添加设备"
+                             android:textSize="16sp"
+                        android:textColor="@android:color/white" />
+                      <TextView
+                        android:id="@id/updateId"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+           android:layout_gravity="right"
+                        android:text="修改设备"
+                             android:textSize="16sp"
+                        android:textColor="@android:color/white" />
+                         <TextView
+                        android:id="@id/clearId"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:text="清空设备"
+                        android:textSize="16sp"
+                          android:layout_gravity="right"
+                        android:textColor="@android:color/white" />
+                
+                </LinearLayout>
+            </TableRow>
+        </TableLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bcar" />
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

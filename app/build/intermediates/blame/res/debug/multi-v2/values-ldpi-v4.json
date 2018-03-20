@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\developer\\Desktop\\222222\\666\\DoubleStarTire2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ldpi-v4\\values-ldpi-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\developer\\Desktop\\222222\\666\\DoubleStarTire2\\app\\src\\main\\res\\values-ldpi\\dimens.xml",
+                    "from": {
+                        "startLines": "5,7,6,8,4,3,2",
+                        "startColumns": "0,0,0,0,0,0,0",
+                        "startOffsets": "176,259,216,305,138,94,51",
+                        "endColumns": "39,45,42,43,37,43,42",
+                        "endOffsets": "215,304,258,348,175,137,93"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,99,149,196,244,286,334",
+                        "endColumns": "43,49,46,47,41,47,46",
+                        "endOffsets": "94,144,191,239,281,329,376"
+                    }
+                }
+            ]
+        }
+    ]
+}

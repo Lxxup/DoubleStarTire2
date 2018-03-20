@@ -1,0 +1,81 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea\
+* .idea\DoubleStarTire2.iml
+* .idea\misc.xml
+* .idea\modules.xml
+* .idea\workspace.xml
+* DoubleStarTire
+* README.txt
+* hs_err_pid15044.log
+* hs_err_pid19084.log
+* hs_err_pid6256.log
+* proguard-project.txt
+* test-1.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:18.0.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* a0.PNG => a0.png
+* b0.PNG => b0.png
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets\
+* libs\android_api_1.1_forsdk.jar => app\libs\android_api_1.1_forsdk.jar
+* libs\armeabi\libBaiduMapSDK_v2_3_1.so => app\src\main\jniLibs\armeabi\libBaiduMapSDK_v2_3_1.so
+* libs\armeabi\liblocSDK3.so => app\src\main\jniLibs\armeabi\liblocSDK3.so
+* libs\armeabi\libvi_voslib.so => app\src\main\jniLibs\armeabi\libvi_voslib.so
+* libs\baidumapapi_v2_3_1.jar => app\libs\baidumapapi_v2_3_1.jar
+* libs\BaiduNaviSDK_v1_0_0.jar => app\libs\BaiduNaviSDK_v1_0_0.jar
+* libs\httpmime-4.1.3.jar => app\libs\httpmime-4.1.3.jar
+* libs\locSDK_3.1.jar => app\libs\locSDK_3.1.jar
+* libs\need_lib.jar => app\libs\need_lib.jar
+* libs\paho-mqtt-client-1.0.1.jar => app\libs\paho-mqtt-client-1.0.1.jar
+* libs\SmartWeatherAPI_Android_3.0.2.jar => app\libs\SmartWeatherAPI_Android_3.0.2.jar
+* libs\umeng-sdk-analytics_v5.2.2_xp_v5.6_fb_v4.3.1_update_v2.4.1.jar => app\libs\umeng-sdk-analytics_v5.2.2_xp_v5.6_fb_v4.3.1_update_v2.4.1.jar
+* lint.xml => app\lint.xml
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+* src\compass => app\src\main\resources\compass
+* d0.PNG => d0.png
+* e0.PNG => e0.png
+* f0.PNG => f0.png
+* grid_bg.PNG => grid_bg.png
+* leftmid.PNG => leftmid.png
+* productintroduce.PNG => productintroduce.png
+* rightmid.PNG => rightmid.png
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

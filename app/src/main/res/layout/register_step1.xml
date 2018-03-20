@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/register_account"
+        android:layout_width="fill_parent"
+        android:layout_height="48.0dip"
+        android:background="@drawable/bg_split_line"
+        android:hint="请输入11位手机号作为用户名"
+        android:paddingLeft="16.0dip"
+        android:textColor="@color/common_black" />
+
+    <EditText
+        android:id="@+id/register_username"
+        android:layout_width="fill_parent"
+        android:layout_height="48.0dip"
+        android:background="@drawable/bg_split_line"
+        android:hint="请输入昵称"
+        android:paddingLeft="16.0dip"
+        android:textColor="@color/common_black" />
+
+    <EditText
+        android:id="@+id/register_password"
+        android:layout_width="fill_parent"
+        android:layout_height="48.0dip"
+        android:background="@drawable/bg_split_line"
+        android:hint="请输入密码"
+        android:inputType="textPassword"
+        android:paddingLeft="16.0dip"
+        android:textColor="@color/common_black" />
+
+    <EditText
+        android:id="@+id/register_repassword"
+        android:layout_width="fill_parent"
+        android:layout_height="48.0dip"
+        android:background="@drawable/bg_split_line"
+        android:hint="请再次输入密码以便确认"
+        android:inputType="textPassword"
+        android:paddingLeft="16.0dip"
+        android:textColor="@color/common_black" />
+
+    <EditText
+        android:id="@+id/register_email"
+        android:layout_width="fill_parent"
+        android:layout_height="48.0dip"
+        android:background="@drawable/bg_split_line"
+        android:hint="请输入邮箱"
+        android:paddingLeft="16.0dip"
+        android:textColor="@color/common_black" />
+
+</LinearLayout>

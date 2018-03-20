@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true" android:state_pressed="true" android:drawable="@drawable/groupon_order_fillin_confirm_pressed" />
+    <item android:state_enabled="false" android:drawable="@drawable/fucous_button_disabled" />
+    <item android:drawable="@drawable/groupon_order_fillin_confirm_normal" />
+</selector>
